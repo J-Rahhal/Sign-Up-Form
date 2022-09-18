@@ -8,5 +8,5 @@ https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90
 This file gives you an idea of how to go about the project and how to lay things out.
 
 1. Images used on this project can be found on (https://unsplash.com/)
-2. Fonts used on this project can be found on (https://fonts2u.com/norse-bold.font/)
+2. Fonts used on this project can be found on (https://www.onlinewebfonts.com/download/7d460b18433753a097e5bc2bad7c8dd9)
 3. Logos used on this project can be found on
