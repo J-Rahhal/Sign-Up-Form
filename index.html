@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -36,30 +37,32 @@
 
                    <div class="input">
                     <label for="firstName">First Name</label>
-                    <input type="text" name="firsName" id="firstName">
+                    <input type="text" name="firsName" id="firstName" required>
                    </div>
 
                    <div class="input">
                     <label for="lastName">Last Name</label>
-                    <input type="text" name="lastName" id="lastName">
+                    <input type="text" name="lastName" id="lastName" required>
                     </div>
 
                    <div class="input">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                     </div>
 
                    <div class="input">
                     <label for="tel">Phone number</label>
-                    <input type="tel" id="tel" name="tel">
+                    <input type="tel" id="tel" name="tel" required>
                     </div>
 
                    <div class="input">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" class="error" min="5" max="20" pattern="[a-zA-Z0-9\-\_]"></div>
+                    <input type="password" name="password" id="password" class="error" required>
+                </div>
+
                    <div class="input">
                     <label for="conpassword">Confirm password</label>
-                    <input type="password" name="conpassword" id="conpassword" class="error" min="5" max="20" pattern="[a-zA-Z0-9\-\_]">
+                    <input type="password" name="conpassword" id="conpassword" class="error"  required>
                     </div>
 
                     <div class="submit">
