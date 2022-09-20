@@ -22,7 +22,7 @@
         <div id="form">
         <div id="form-header">
            <div class="intro">
-            <h2>This is not a real online service! You know you need something like this in your life
+            <h2><s>This is not a real online service!</s> You know you need something like this in your life
                 to help you realize your dreams. <br> Sign up <em>now</em> to get started.
             </h2>
             <h2>
@@ -32,11 +32,11 @@
         </div>
             <div id="form-body">
                 <h3>Let's do this!</h3>
-                <form action="#">
+                <form action="">
 
                    <div class="input">
                     <label for="firstName">First Name</label>
-                    <input type="text" name="firsName" id="firsName">
+                    <input type="text" name="firsName" id="firstName">
                    </div>
 
                    <div class="input">
@@ -56,10 +56,10 @@
 
                    <div class="input">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password"></div>
+                    <input type="password" name="password" id="password" class="error" min="5" max="20" pattern="[a-zA-Z0-9\-\_]"></div>
                    <div class="input">
                     <label for="conpassword">Confirm password</label>
-                    <input type="password" name="conpassword" id="conpassword">
+                    <input type="password" name="conpassword" id="conpassword" class="error" min="5" max="20" pattern="[a-zA-Z0-9\-\_]">
                     </div>
 
                     <div class="submit">
