@@ -67,10 +67,27 @@ body {
 
   }
 
+.background-logo p {
+    position: absolute;
+    top: 450px;
+    color: white;
+    opacity: 0.7;
+  }
+
+.background-logo a {
+    color: white;
+}
+
   .right-div {
     width: 65%;
     background: rgb(57,1,1);
     background: linear-gradient(194deg, rgba(57,1,1,1) 14%, rgba(27,15,66,1) 46%, rgba(50,1,1,1) 91%);
+  }
+
+  #form {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
   }
 
   #form-header {
@@ -81,10 +98,27 @@ body {
     align-items: center;
   }
 
-  .intro {
+  .intro, #form-body{
     color: white;
-    width: 90%;
     letter-spacing:  2px;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.8;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .input {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    gap: 20px;
+  }
+
+  input {
+    width: 300px;
+    height: 25px;
   }
