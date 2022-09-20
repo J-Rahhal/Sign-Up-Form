@@ -48,7 +48,7 @@ body {
     align-items: center;
   }
 
-  .background-logo >h1 {
+  .background-logo >h1{
     color: #73b2c5;
     text-shadow:
     /*white glow*/
@@ -82,6 +82,8 @@ body {
     width: 65%;
     background: rgb(57,1,1);
     background: linear-gradient(194deg, rgba(57,1,1,1) 14%, rgba(27,15,66,1) 46%, rgba(50,1,1,1) 91%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
 
   #form {
@@ -107,6 +109,7 @@ body {
 
   form {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
 
@@ -114,7 +117,6 @@ body {
     margin: 10px 0;
     display: flex;
     flex-direction: column;
-    margin-right: 100px;
     gap: 20px;
   }
 
@@ -122,3 +124,31 @@ body {
     width: 300px;
     height: 25px;
   }
+
+.submit {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"] {
+    height: 40px;
+    color: rgb(0, 108, 116);
+    box-shadow: 0 5px 15px rgba(4, 122, 131, 0.4);
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "cyberpunks";
+}
+
+.footer, .footer a {
+    text-align: center;
+    color: #fff;
+}
+
+.footer a {
+    font-family: "cyberpunks";
+}
